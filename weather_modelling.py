@@ -1,6 +1,6 @@
 def calculate_temperature(a, b, c, day):
     return a * (day ** 2) + b * day + c
-    #
+    
 with open('coefficients_multiple.csv', 'r') as file:
     lines = file.readlines()
     for line in lines:
